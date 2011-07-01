@@ -1,0 +1,163 @@
+/**
+ * Admin Scripts Control Panel CSS.
+ *
+ * @author          Stephen Lewis (http://github.com/experience)
+ * @package         Admin_scripts
+ */
+
+@media screen {
+
+#ei {
+    font-size           : 12px;
+    line-height         : 18px;
+}
+
+#ei * {
+    margin              : 0;
+    padding             : 0;
+}
+
+
+/* =headings
+ * ------------------------------------------------------------ */
+#ei h1 {
+    border-bottom       : 1px solid rgb(220, 220, 220);
+    font-size           : 18px;
+    margin-bottom       : 12px;
+    padding-bottom      : 11px;
+}
+
+#ei h1 span {
+    color               : rgb(153, 153, 153);
+    font-size           : 12px;
+    font-weight         : normal;
+}
+
+#ei h2 {
+    font-size           : 15px;
+    margin-bottom       : 5px;
+}
+
+#ei h3 {
+    font-size           : 13px;
+}
+
+
+/* =lists
+ * ------------------------------------------------------------ */
+ul {
+    list-style          : none;
+}
+
+
+/* =paragraphs
+ * ------------------------------------------------------------ */
+#ei p {
+    font-size           : 1em;
+    margin-bottom       : 1em;
+}
+
+
+/* =admin_script_bundle
+ * ------------------------------------------------------------ */
+#ei .admin_script_bundle {
+    border-bottom       : 1px solid rgb(220, 220, 220);
+    margin-bottom       : 12px;
+}
+
+#ei .admin_script_bundle > .hd {
+    border-bottom       : 1px solid rgb(238, 238, 238);
+    padding             : 0 10px;
+}
+
+
+/* =admin_script
+ * ------------------------------------------------------------ */
+#ei .admin_script {
+    -webkit-transition  : all .2s ease;
+    background          : rgb(255, 255, 255);
+    border-bottom       : 1px dotted rgb(238, 238, 238);
+    overflow            : hidden;
+    padding             : 9px 10px 10px 20px;
+}
+
+#ei .admin_script:hover {
+    background-color    : rgb(242, 242, 242);
+}
+
+#ei .admin_script .bd,
+#ei .admin_script .hd {
+    float               : left;
+    width               : 75%;
+}
+
+#ei .admin_script p {
+    margin-bottom       : 0;
+}
+
+#ei .admin_script .ft {
+    float               : right;
+    margin-top          : -1.333em;
+}
+
+
+/* =btn
+ * ------------------------------------------------------------ */
+#ei .btn {
+    background-color    : rgb(109, 148, 45);
+    background-image    : -moz-linear-gradient(center bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.25) 1);
+    background-image    : -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 0)), color-stop(1, rgba(255, 255, 255, 0.25)));
+    border-radius       : 24px;
+    box-shadow          : 0 1px 3px rgba(0, 0, 0, 0.25);
+    border              : 1px solid rgb(155, 198, 88);
+    color               : rgb(255, 255, 255);
+    display             : inline-block;
+    font-weight         : bold;
+    padding             : 6px 20px;
+    text-shadow         : 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* =status_messages
+ -------------------------------------------------------------*/
+#ei .status_messages {
+    margin-bottom           : 2em;
+}
+
+#ei .status_messages p {
+    background-color        : rgb(238, 238, 238);
+    background-image        : url('../img/message-icons.png');
+    background-position     : 10px 6px;
+    background-repeat       : no-repeat;
+    border                  : 1px solid rgba(0, 0, 0, 0.25);
+    border-radius           : 2px;
+    box-shadow              : 0 1px 2px rgba(0, 0, 0, 0.15);
+    margin-bottom           : 5px;
+    padding                 : 0.5em 10px 0.5em 35px;
+    text-shadow             : 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+#ei .status_messages .error {
+    background-color        : rgb(184, 0, 0);
+    color                   : rgb(255, 255, 255);
+    font-weight             : bold;
+    text-shadow             : 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+#ei .status_messages .warning {
+    background-color        : rgb(255, 226, 36);
+}
+
+#ei .status_messages .information {
+    background-color        : rgb(219, 255, 229);
+}
+
+#ei .status_messages .information {
+    background-position     : 10px -144px;
+}
+
+
+}
+
+/* End of file      : cp.css */
+/* File location    : /themes/cp_themes/default/admin_scripts/css/cp.css */
